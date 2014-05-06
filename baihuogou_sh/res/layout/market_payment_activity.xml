@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" 
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/shixianyuanjiao"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/payment_total_prices_t" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E8E8E8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/payment_freight_prices_t" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E8E8E8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/payment_privilege_t" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E8E8E8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/payment_amount_payable_t" />
+    </LinearLayout>
+    
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout_1"
+        android:layout_below="@+id/linearLayout_1"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shixianyuanjiao"
+        android:orientation="vertical" 
+       >
+
+        <CheckBox
+            android:id="@+id/balance_paid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_balance_paid_c" 
+            android:paddingLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="35dp"
+            android:paddingTop="5dp"
+            android:text="@string/payment_account_t" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="35dp"
+            android:paddingTop="5dp"
+            android:text="@string/payment_balance_t"/>
+        <TextView
+            android:id="@+id/TextView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="35dp"
+            android:paddingTop="5dp"
+            android:textColor="#9C9C9C"
+            android:text="@string/payment_payment_code_t"/>
+        <EditText
+             android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/shixianyuanjiao"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="35dp"
+            android:paddingTop="5dp"
+            android:textColor="#9C9C9C"
+            android:text="@string/payment_other_pay_t"/>
+        
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shixianyuanjiao"
+        android:orientation="vertical" >
+        <CheckBox
+            android:id="@+id/online_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_online_payment_c" 
+            android:paddingLeft="5dp"/>
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/payment_affirm_b"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/my_query_pressed_x"
+            android:text="@string/payment_affirm_b"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+</LinearLayout>

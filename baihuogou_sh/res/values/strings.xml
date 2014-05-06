@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">baihuogou</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- Content descriptions -->
+    <string name="payment_total_prices_t">商品总价：</string>
+    <string name="payment_freight_prices_t">运费总价：</string>
+    <string name="payment_privilege_t">优惠：</string>
+    <string name="payment_amount_payable_t">应付金额：</string>
+    <string name="payment_balance_paid_c">余额支付</string>
+    <string name="payment_account_t">账户：</string>
+    <string name="payment_balance_t">余额：</string>
+    <string name="payment_payment_code_t">百货购支付密码</string>
+    <string name="payment_other_pay_t">还需要其他方式支付：</string>
+    <string name="payment_online_payment_c">线上支付</string>
+    <string name="payment_affirm_b">确认</string>
+    <string name="return_text_t">我们已经收到你的退货申请！</string>
+    <string name="return_text_3_t">接下来, 我们的客服人员将在1-2个工作日</string>
+    <string name="return_text_4_t">内联系你, 跟进退换货进度.</string>
+    <string name="return_text_1_t">现在你可以 ：</string>
+    <string name="return_text_2_t">联系电话：400 673 9993</string>
+    <string name="return_Mall_homepage_b">商城首页</string>
+    <string name="return_Mall_management_b">商城管理中心</string>
+    <string name="Search_found_text_t">非常抱歉, 这个页面木有找到</string>
+    <string name="Search_found_text_1_t">将在</string>
+    <string name="Search_found_text_2_t">10</string>
+    <string name="Search_found_text_3_t">秒后跳转到首页</string>
+    <string name="Search_found_text_4_t">返回上一页</string>
+    <string name="Search_found_text_5_t">页面出错原因</string>
+    <string name="Search_found_text_6_t">贵玉手键入的网址有误</string>
+    <string name="Search_found_text_7_t">从购物袋里掉出来了</string>
+    <string name="Search_found_text_8_t">她今天心情不好</string>
+    
+    
+    
+
+    
+    
+
+</resources>

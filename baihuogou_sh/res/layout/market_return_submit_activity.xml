@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="80dp" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/logo_nofuond" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="24dp"
+        android:text="@string/return_text_t" />
+
+    <Button
+        android:id="@+id/Mall_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/return_success_pressed_x"
+        android:text="@string/return_Mall_homepage_b" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Mall_homepage"
+        android:layout_below="@+id/Mall_homepage"
+        android:layout_marginTop="14dp"
+        android:text="@string/return_text_2_t" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:text="@string/return_text_3_t" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView3"
+        android:text="@string/return_text_4_t" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="22dp"
+        android:text="@string/return_text_1_t" />
+
+    <Button
+        android:id="@+id/Mall_management"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Mall_homepage"
+        android:layout_alignBottom="@+id/Mall_homepage"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/Mall_homepage"
+        android:background="@drawable/return_success_pressed_x"
+        android:text="@string/return_Mall_management_b" />
+
+</RelativeLayout>
